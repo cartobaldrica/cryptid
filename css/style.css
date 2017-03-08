@@ -1,0 +1,247 @@
+.sidebar {
+   /* display: none;*/
+}
+
+.main {
+    padding: 20px;
+    padding-top: 12px;
+    padding-bottom: 600px;
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+
+.viewing {
+	opacity:1;
+}
+
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        display : block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #ffffff;
+        border-right: 1px solid #eee;
+        height: 100%;
+        width: 100%;
+    }
+
+    .main {
+        padding-right: 40px;
+        padding-left: 20px;
+        z-index: 1001;
+        width: 600px;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 767px)  {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        display : table-cell;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #ffffff;
+        border-right: 1px solid #eee;
+        height: 100%;
+        width: 100%
+    }
+
+    .main {
+        padding-right: 10px;
+        padding-left: 10px;
+        z-index: 1001;
+        width: 100%
+        background-color:rgba(0, 0, 0, 0);
+    }
+
+    .viewing {
+        background: rgba(221, 221, 221, 0);
+    }
+}
+
+.legend {
+    line-height: 16px;
+    width: 150px;
+    color: #333333;
+	font-family: "Lucida Console", Monaco, monospace;
+    padding: 6px 8px;
+    background: rgba(38,38,38,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+    z-index: 1000;
+    color: #66ff66;
+}
+
+.legend img {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    float: left;
+}
+
+.legend p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    color: #66ff66;
+}
+
+.legend b {
+    color: #66ff66;
+}
+
+.legend2 {
+    opacity: 0;
+}
+
+
+.breakpoint-current {
+    left: 0;
+    margin-top: -10px;
+    position: fixed;
+   /* top: 33.3333%; */
+    width: 1px;
+    height: 1px;
+    background: black;
+    opacity: 0;
+}
+
+section {
+    padding: 5px 10px 100px 10px;
+    border-radius: 0px;
+    opacity:.1;
+}
+
+.arrow-down {
+    position:fixed;
+    padding-left: 15px;
+    top:90%;
+    cursor: pointer;
+    z-index:1002;
+    font-size: 30px;
+    color: #66ff66;
+}
+
+.arrow-down:hover {
+    color: #b300b3;
+
+}
+
+.leaflet-container {
+    background-color:#000000;
+}
+body {
+	background-color:#000000;
+	color: #66ff66;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+h1{
+	padding-left: 0px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+p{
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: justify;
+}
+h2{
+	font-family: "Lucida Console", Monaco, monospace;
+}
+h3{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 70px;
+	font-weight:bold;
+	margin-top: 0px;
+	}
+.social,.social2 {
+    position:fixed;
+    cursor: pointer;
+    font-size:16px;
+    color:#66ff66;
+    z-index:1003;
+    top: 3%;
+    left:7px;
+}
+.social:hover {
+    color: #b300b3;
+    text-decoration: none;
+}
+.social2:hover {
+    color: #b300b3;
+    text-decoration: none;
+}
+
+.label_tooltip {
+  font-family: "Lucida Console", Monaco, monospace;
+  color:#66ff66;
+  background-color: rgba(0,0,0,1);
+  font-weight: bold; 
+  border: 2px solid rgba(0,0,0,0);
+  box-shadow: 2px 5px rgba(0,0,0,0);
+}
+.leaflet-tooltip-left.label_tooltip::before {
+  border-left-color: black;
+  opacity: 1;
+}
+.leaflet-tooltip-right.label_tooltip::before {
+  border-right-color: black;
+  opacity: 1;
+}
+
+.label_tooltip2 {
+  font-family: "Lucida Console", Monaco, monospace;
+  color:#66ff66;
+  font-size:300px;
+  background-color: rgba(255,255,255,0);
+  font-weight: bold; 
+  border: 2px solid rgba(255,255,255,0);
+  box-shadow: 2px 5px rgba(255,255,255,0);
+}
+.leaflet-tooltip-left.label_tooltip2::before {
+  border-left-color: black;
+  opacity: 0;
+}
+.leaflet-tooltip-right.label_tooltip2::before {
+  border-right-color: black;
+  opacity: 0;
+}
+.legend .circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  Color: '#b300b3';
+}
+.leaflet-control-zoom {
+  font: 'Lucida Console', Monaco, monospace;
+  text-indent: 1px;
+   color:#000000;
+    background-color: #000000;
+    background-size: 50px 50px;
+  }
+
+a.leaflet-control-zoom-in:read-only, a.leaflet-control-zoom-out:read-only{ 
+color: #66ff66;
+background-color: #333333;
+}
+

@@ -1,0 +1,33 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Okanagan Lake", "mster_name": "Ogopogo" }, "geometry": { "type": "Point", "coordinates": [ -119.5236098, 49.83385, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Seneca Lake", "mster_name": "The Serpent" }, "geometry": { "type": "Point", "coordinates": [ -76.9066829, 42.6827036, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Cayuga Lake", "mster_name": "Old Greeny" }, "geometry": { "type": "Point", "coordinates": [ -76.6990172, 42.6776693, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Ballston Lake", "mster_name": "Big Tim" }, "geometry": { "type": "Point", "coordinates": [ -73.8680872, 42.9117377, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Reindeer Lake", "mster_name": "No Name" }, "geometry": { "type": "Point", "coordinates": [ -103.0962122, 55.80153, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Thetis Lake", "mster_name": "Thetis Lake Monster" }, "geometry": { "type": "Point", "coordinates": [ -123.4796725, 48.4709849, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Manitoba", "mster_name": "Manipogo" }, "geometry": { "type": "Point", "coordinates": [ -98.3987593, 50.626293, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Cold Lake", "mster_name": "Kinosoo" }, "geometry": { "type": "Point", "coordinates": [ -110.1731468, 54.4643173, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Winnipegosis", "mster_name": "Winnipogo" }, "geometry": { "type": "Point", "coordinates": [ -99.917051, 52.6738334, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Crescent Lake", "mster_name": "Cressie" }, "geometry": { "type": "Point", "coordinates": [ -55.8636529, 49.4810115, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Simcoe", "mster_name": "Igopogo" }, "geometry": { "type": "Point", "coordinates": [ -79.3352899, 44.4635548, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Superior", "mster_name": "Mishipeshu" }, "geometry": { "type": "Point", "coordinates": [ -86.940716, 47.723087, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Ontario", "mster_name": "Kingstie" }, "geometry": { "type": "Point", "coordinates": [ -77.8270669, 43.6333482, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Timiskaming", "mster_name": "Mugwump" }, "geometry": { "type": "Point", "coordinates": [ -79.4842939, 47.3100571, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Memphremagog", "mster_name": "Memphre" }, "geometry": { "type": "Point", "coordinates": [ -72.2224158, 44.9708843, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Utopia", "mster_name": "Old Ned" }, "geometry": { "type": "Point", "coordinates": [ -66.794851, 45.1584639, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Champlain", "mster_name": "Champ" }, "geometry": { "type": "Point", "coordinates": [ -73.3800905, 44.586581, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Tahoe", "mster_name": "Tahoe Tessie" }, "geometry": { "type": "Point", "coordinates": [ -120.0323507, 39.0968493, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Tarpon", "mster_name": "Tarpie" }, "geometry": { "type": "Point", "coordinates": [ -82.7266217, 28.1211901, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Payette Lake", "mster_name": "Sharlie" }, "geometry": { "type": "Point", "coordinates": [ -116.1074207, 44.9284863, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Flathead Lake", "mster_name": "Flathead Lake Monster" }, "geometry": { "type": "Point", "coordinates": [ -114.1155537, 47.9056393, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Hopatcong", "mster_name": "Lake Hopatcong Monster" }, "geometry": { "type": "Point", "coordinates": [ -74.6129577, 40.9610211, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Willoughby", "mster_name": "Willy" }, "geometry": { "type": "Point", "coordinates": [ -72.0636317, 44.7606922, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Erie", "mster_name": "Bessie" }, "geometry": { "type": "Point", "coordinates": [ -81.3399414, 42.0668852, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Bear Lake", "mster_name": "Bear Lake monster" }, "geometry": { "type": "Point", "coordinates": [ -111.3321974, 42.0299239, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Raystown Lake", "mster_name": "Raystown Ray" }, "geometry": { "type": "Point", "coordinates": [ -78.0908651, 40.3701913, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Great Salt Lake", "mster_name": "North Shore Monster" }, "geometry": { "type": "Point", "coordinates": [ -112.4768287, 41.115791, 0.0 ] } }
+]
+}
