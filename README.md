@@ -9,6 +9,7 @@ Lake Monster and other cryptid data - Wikipedia, CryptoWik<br>
 Lakes: Natural Earth Layer<br>
 Forest Cover: Google Earth Engine <br>
 Plugins:<br>
+<br>
 Storymap.js<br>
 Ekko-Lightbox<br>
 MiniMap<br>
