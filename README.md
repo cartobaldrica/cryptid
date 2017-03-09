@@ -7,9 +7,8 @@ Bigfoot Sightings - Bigfoot Field Researchers Organization<br>
 Chupacabra Sightings - Locations from "Tracking the Chupacabra: The Vampire Beast in Fact, Fiction, and Folklore" by Ben Radford<br>
 Lake Monster and other cryptid data - Wikipedia, CryptoWik<br>
 Lakes: Natural Earth Layer<br>
-Forest Cover: Google Earth Engine <br>
+Forest Cover: Google Earth Engine <br><br>
 Plugins:<br>
-<br>
 Storymap.js<br>
 Ekko-Lightbox<br>
 MiniMap<br>
